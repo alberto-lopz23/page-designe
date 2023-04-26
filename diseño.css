@@ -1,0 +1,160 @@
+body {
+    background-color: #010115 ;
+} 
+
+* {
+    color: #ADD8E6;
+   text-decoration: none;
+   list-style: none; 
+   
+   
+   
+        
+    }
+
+/*ul {
+    list-style: none; 
+    margin-top:px; 
+    font-size: 25px;
+    
+}*/
+
+.sidebar {
+    position: fixed;
+    top: 15%; 
+    left: 2%;
+    width: 210px;
+    right: 2px;
+    height: 70%;
+    background-color: #06061e;
+   padding: 10px;
+} 
+ .sidebar { box-sizing: border-box; 
+    animation: led-animation  4s linear infinite;
+    
+ }
+    
+  @keyframes led-animation  {
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 0 0 3px 3px #ff0000;
+    }
+    25% {
+        transform: rotate(0deg);
+        box-shadow: 0 0 3px 3px #00ff00;
+    } 
+    50% {
+        transform: rotate(0deg); 
+        box-shadow: 0 0 3px 3px #0000ff;
+    }
+
+    75% {
+        transform: rotate(0deg);
+        box-shadow: 0 0 3px 3px #ff00ff;
+    } 
+    100% {
+        transform: rotate(0deg);
+        box-shadow: #ffff00;
+    }
+    125% {
+        transform: rotate(0deg);
+        box-shadow: #A52A2A ;
+    }
+
+  } 
+
+
+#saludo {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 40px; 
+    font-size: 30px; 
+    
+
+} 
+
+.imagenes {
+    font-size: 30px;
+    margin-top:40px ;
+   margin-left: -30px; 
+   border:  solid -2px #06061e; 
+   padding: 20px; 
+   transition: transform 0.2s ease-in-out;
+   display: inline-block; 
+}
+.imagenes:hover {
+    transform: scale(1.5);
+}
+
+
+
+#loa {
+    margin-top: 40px; 
+    font-size: 28px;  
+    margin-left: -33px;
+    border:  solid -2px ; 
+    padding: 20px; 
+    transition: transform 0.2s ease-in-out;
+    display: inline-block; 
+ }
+ #loa:hover {
+     transform: scale(1.5);
+ }
+
+
+.frase {
+    margin-top: 40px ; 
+    font-size: 22px;
+    margin-left: -20px;
+    border:  solid -2px #06061e; 
+    padding: 10px; 
+    transition: transform 0.2s ease-in-out;
+    display: inline-block; 
+ }
+ .frase:hover {
+     transform: scale(1.5);
+ }
+
+.chat {
+    margin-top: 40px; 
+    font-size: 20px; 
+    margin-left: -25px;
+    border:  solid -2px #06061e; 
+    padding: 20px; 
+    transition: transform 0.2s ease-in-out;
+    display: inline-block; 
+ }
+ .chat:hover {
+     transform: scale(1.5);
+ }
+
+.barra {
+    position: fixed;
+    display: flex;
+    justify-content: end; 
+    width: 400px;
+    height: 20px; 
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 400px;
+    margin-left: 550px;    
+    text-align: center;
+    background-color: #2c3e50; 
+    display: inline-block; 
+} 
+
+.boton {
+    color: transparent;
+    display: inline-block; 
+    position: fixed; 
+    justify-content: center;  
+    margin-top: 405px; 
+    margin-left: 970px;  
+    background-color: transparent; 
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1px; 
+    border: none;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3); }
